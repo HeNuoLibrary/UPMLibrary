@@ -46,3 +46,7 @@ git push origin upm --tags
 4. **使用** 
 unity dependencies 添加 "com.henuo.upm": "https://github.com/HeNuoScott/UPMLibrary.git#1.0.0"
 
+4. **错误进行删除使用**
+git tag -d 1.0.0;
+git push origin :1.0.0
+
