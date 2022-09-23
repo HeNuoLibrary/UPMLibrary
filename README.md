@@ -1,12 +1,14 @@
-﻿## 插件库 简介
+# 插件库 简介
 
 这是一个Unity Package Manager 的插件库文件
 
-1. **添加插件** 
+### **添加插件** 
+
 创建一个插件分支git checkout -b upm
 
-2. **添加Package.json**
+### **添加Package.json**
 
+```
 {
   "name": "com.henuo.upm",
   "version": "1.0.0",
@@ -38,15 +40,20 @@
     }
   ]
 }
+```
 
-3. **添加标签** 
+### **添加标签**
+
 git tag 1.0.0 upm
+
 git push origin upm --tags
 
-4. **使用** 
+### **使用**
+
 unity dependencies 添加 "com.henuo.upm": "https://github.com/HeNuoScott/UPMLibrary.git#1.0.0"
 
-4. **错误进行删除使用**
-git tag -d 1.0.0;
-git push origin :1.0.0
+==### 错误进行删除使用==
 
+git tag -d 1.0.0;
+
+git push origin :1.0.0
